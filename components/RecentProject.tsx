@@ -5,6 +5,7 @@ import { div } from "three/examples/jsm/nodes/Nodes.js";
 import { PinContainer } from "./ui/Pin";
 import { title } from "process";
 import { FaLocationArrow } from "react-icons/fa6";
+import Link from "next/link";
 
 const RecentProject = () => {
   return (
@@ -60,9 +61,11 @@ const RecentProject = () => {
                   ))}
                 </div>
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-purple">
-                    Check Live Site
-                  </p>
+                  <Link href={project.link}>
+                    <p className="flex lg:text-xl md:text-xs text-purple">
+                      Check Live Site
+                    </p>
+                  </Link>
                   <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
