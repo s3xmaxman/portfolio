@@ -5,7 +5,6 @@ import Hero from "@/components/Hero";
 import RecentProject from "@/components/RecentProject";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { navItems } from "@/data";
-import { FaHome } from "react-icons/fa";
 
 const Home = () => {
   return (
