@@ -1,6 +1,7 @@
 "use client";
 
 import Clients from "@/components/Clients";
+import Experience from "@/components/Experience";
 import Grid from "@/components/Grid";
 import Hero from "@/components/Hero";
 import RecentProject from "@/components/RecentProject";
@@ -16,6 +17,7 @@ const Home = () => {
         <Grid />
         <RecentProject />
         <Clients />
+        <Experience />
       </div>
     </main>
   );
