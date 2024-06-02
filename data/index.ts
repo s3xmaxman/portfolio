@@ -8,7 +8,8 @@ export const navItems = [
 export const gridItems = [
   {
     id: 1,
-    title: "I prioritize client collaboration, fostering open communication ",
+    title:
+      "クライアントとのコラボレーションを優先し、オープンなコミュニケーションを促進します",
     description: "",
     className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
     imgClassName: "w-full h-full",
@@ -18,7 +19,7 @@ export const gridItems = [
   },
   {
     id: 2,
-    title: "I'm very flexible with time zone communications",
+    title: "タイムゾーンのコミュニケーションに非常に柔軟です",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
@@ -28,8 +29,8 @@ export const gridItems = [
   },
   {
     id: 3,
-    title: "My tech stack",
-    description: "I constantly try to improve",
+    title: "私の技術スタック",
+    description: "常に改善を目指しています",
     className: "lg:col-span-2 md:col-span-3 md:row-span-2",
     imgClassName: "",
     titleClassName: "justify-center",
@@ -38,7 +39,7 @@ export const gridItems = [
   },
   {
     id: 4,
-    title: "Tech enthusiast with a passion for development.",
+    title: "開発に情熱を持つ技術愛好家。",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -46,11 +47,10 @@ export const gridItems = [
     img: "/grid.svg",
     spareImg: "/b4.svg",
   },
-
   {
     id: 5,
-    title: "Currently building a JS Animation library",
-    description: "The Inside Scoop",
+    title: "現在JSアニメーションライブラリを構築中",
+    description: "内部情報",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
     titleClassName: "justify-center md:justify-start lg:justify-center",
@@ -59,7 +59,7 @@ export const gridItems = [
   },
   {
     id: 6,
-    title: "Do you want to start a project together?",
+    title: "一緒にプロジェクトを始めませんか？",
     description: "",
     className: "lg:col-span-2 md:col-span-3 md:row-span-1",
     imgClassName: "",
@@ -72,32 +72,32 @@ export const gridItems = [
 export const projects = [
   {
     id: 1,
-    title: "3D Solar System Planets to Explore",
-    des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
+    title: "探索できる3D太陽系の惑星",
+    des: "Three.jsを使用した魅力的な3D惑星シミュレーションで、太陽系の驚異を探索しましょう。",
     img: "/p1.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
     link: "https://github.com/adrianhajdin?tab=repositories",
   },
   {
     id: 2,
-    title: "Yoom - Video Conferencing App",
-    des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
+    title: "Yoom - ビデオ会議アプリ",
+    des: "Yoomでビデオ会議の体験を簡素化します。コラボレータや友人とシームレスに接続。",
     img: "/p2.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
     link: "https://github.com/adrianhajdin/zoom-clone",
   },
   {
     id: 3,
-    title: "AI Image SaaS - Canva Application",
-    des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
+    title: "AI Image SaaS - Canva アプリケーション",
+    des: "最新の技術スタックを使用した、AI機能と支払いおよびクレジットシステムを備えた本格的なソフトウェアサービスアプリ。",
     img: "/p3.svg",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
     link: "https://github.com/adrianhajdin/ai_saas_app",
   },
   {
     id: 4,
-    title: "Animated Apple Iphone 3D Website",
-    des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
+    title: "アニメーション付きApple iPhone 3Dウェブサイト",
+    des: "GSAPアニメーションとThree.js 3D効果を組み合わせたApple iPhone 15 Proのウェブサイトを再現。",
     img: "/p4.svg",
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
     link: "https://github.com/adrianhajdin/iphone",
@@ -107,33 +107,33 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Adrianとのコラボレーションは絶対に素晴らしいものでした。彼のプロフェッショナリズム、迅速さ、そして優れた結果を提供するための献身は、プロジェクト全体を通して明らかでした。開発のすべての側面に対するAdrianの情熱は本当に際立っています。あなたのウェブサイトを高め、ブランドを向上させたいなら、Adrianは理想的なパートナーです。",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "AlphaStream Technologiesのディレクター",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Adrianとのコラボレーションは絶対に素晴らしいものでした。彼のプロフェッショナリズム、迅速さ、そして優れた結果を提供するための献身は、プロジェクト全体を通して明らかでした。開発のすべての側面に対するAdrianの情熱は本当に際立っています。あなたのウェブサイトを高め、ブランドを向上させたいなら、Adrianは理想的なパートナーです。",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "AlphaStream Technologiesのディレクター",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Adrianとのコラボレーションは絶対に素晴らしいものでした。彼のプロフェッショナリズム、迅速さ、そして優れた結果を提供するための献身は、プロジェクト全体を通して明らかでした。開発のすべての側面に対するAdrianの情熱は本当に際立っています。あなたのウェブサイトを高め、ブランドを向上させたいなら、Adrianは理想的なパートナーです。",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "AlphaStream Technologiesのディレクター",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Adrianとのコラボレーションは絶対に素晴らしいものでした。彼のプロフェッショナリズム、迅速さ、そして優れた結果を提供するための献身は、プロジェクト全体を通して明らかでした。開発のすべての側面に対するAdrianの情熱は本当に際立っています。あなたのウェブサイトを高め、ブランドを向上させたいなら、Adrianは理想的なパートナーです。",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "AlphaStream Technologiesのディレクター",
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
+      "Adrianとのコラボレーションは絶対に素晴らしいものでした。彼のプロフェッショナリズム、迅速さ、そして優れた結果を提供するための献身は、プロジェクト全体を通して明らかでした。開発のすべての側面に対するAdrianの情熱は本当に際立っています。あなたのウェブサイトを高め、ブランドを向上させたいなら、Adrianは理想的なパートナーです。",
     name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+    title: "AlphaStream Technologiesのディレクター",
   },
 ];
 
@@ -173,29 +173,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "フロントエンドエンジニアインターン",
+    desc: "React.jsを使用したウェブベースプラットフォームの開発を支援し、インタラクティブ性を向上。",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "モバイルアプリ開発 - JSM Tech",
+    desc: "React Nativeを使用して、iOSおよびAndroidプラットフォーム向けのモバイルアプリを設計および開発。",
+    className: "md:col-span-2", // 変更: md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
-    className: "md:col-span-2", // change to md:col-span-2
+    title: "フリーランスアプリ開発プロジェクト",
+    desc: "クライアントのためのモバイルアプリの開発を、初期コンセプトからアプリストアへの展開まで主導。",
+    className: "md:col-span-2", // 変更: md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "リードフロントエンド開発者",
+    desc: "最新のフロントエンド技術を使用して、ユーザー向け機能を開発および維持。",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },
